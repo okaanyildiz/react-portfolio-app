@@ -388,3 +388,45 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .txt-rotate>.wrap {
     border-right: 0.08em solid #666;
 }
+
+/* SKILLS */
+.skill {
+    padding: 0 0 50px 0;
+    position: relative;
+    height: 100vh;
+    background-image: url('./assets/img/footer-bg.png');
+    background-size: cover;
+}
+
+.skill-bx {
+    background-image: url('./assets/img/banner2.webp');
+    border-radius: 64px;
+    text-align: center;
+    padding: 160px 50px;
+    margin-top: 40px;
+}
+
+.skill h2 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.skill-slider {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.skill-slider .item img {
+    width: 50%;
+    margin: 0 auto 15px auto;
+}
+
+.background-image-left {
+    top: 28%;
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+    z-index: -4;
+}
