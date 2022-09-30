@@ -435,7 +435,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
     height: 100vh;
     padding: 60px 0;
-    position: relative;
+    display: flex;
     background-image: url("./assets/img/project-back.jpeg");
 }
 
