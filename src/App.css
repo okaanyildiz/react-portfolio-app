@@ -278,22 +278,28 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     margin-top: 0;
     padding: 200px 0 100px 130px;
     height: 100vh;
-    background-image: url('./assets/img/banner2.webp');
+    /* background-image: url('./assets/img/banner2.webp');
     background-image: url('./assets/img/banner1.jpeg');
+    background-image: url('./assets/img/banner3.jpeg'); */
+    background: linear-gradient(rgba(3, 5, 14, 0.5), rgba(20, 80, 98, 0.5), rgba(3, 5, 14, 0.5));
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .banner .tagline {
-    font-weight: 700;
+    font-weight: bolder;
     letter-spacing: 0.8px;
-    padding: 8px 90px;
+    padding: .2rem 18rem;
     background: linear-gradient(90.21deg, rgba(248, 21, 21, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
     border: 1px solid rgba(255, 255, 255, 0.5);
-    font-size: 20px;
+    border-radius: 50px;
+    font-size: 2rem;
     margin-bottom: 16px;
     display: inline-block;
+    /* background: -webkit-linear-gradient(rgb(246, 75, 1), rgba(12, 207, 81, 0.682));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
 }
 
 .banner h1 {
@@ -394,7 +400,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     padding: 0 0 50px 0;
     position: relative;
     height: 100vh;
-    background-image: url('./assets/img/footer-bg.png');
+    /* background-image: url('./assets/img/footer-bg.png'); */
+    background: linear-gradient(rgba(3, 5, 14, 0.5), #F96666, rgba(3, 5, 14, 0.5));
     background-size: cover;
 }
 
@@ -437,6 +444,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     padding: 60px 0;
     display: flex;
     background-image: url("./assets/img/project-back.jpeg");
+    background: linear-gradient(rgba(3, 5, 14, 0.5), rgba(49, 123, 170, 0.5), rgba(3, 5, 14, 0.5));
 }
 
 .project h2 {
@@ -582,7 +590,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* FOOTER and NEWSLETTER */
 .footer {
     padding: 0 0 50px 0;
-    background-image: url('./assets/img/footer-bg.png');
+    background: linear-gradient(rgba(3, 5, 14, 0.5), rgba(67, 33, 114, 0.894), rgba(3, 5, 14, 0.5));
     height: 50vh;
 }
 
