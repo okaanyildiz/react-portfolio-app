@@ -34,31 +34,31 @@ function Skills() {
                             <h2>Skills</h2>
                             <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                                 <div className="item">
-                                    <img src={meter1} alt="Image" />
+                                    <img src={meter1} alt="skillmeter" />
                                     <h5>Frontend Development</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter3} alt="Image" />
+                                    <img src={meter3} alt="skillmeter" />
                                     <h5>Backend Development</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter3} alt="Image" />
+                                    <img src={meter3} alt="skillmeter" />
                                     <h5>Cloud Development</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter3} alt="Image" />
+                                    <img src={meter3} alt="skillmeter" />
                                     <h5>CI/CD</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter1} alt="Image" />
+                                    <img src={meter1} alt="skillmeter" />
                                     <h5>Agile Development</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="Image" />
+                                    <img src={meter2} alt="skillmeter" />
                                     <h5>DevOps</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter3} alt="Image" />
+                                    <img src={meter3} alt="skillmeter" />
                                     <h5>Microservices</h5>
                                 </div>
                             </Carousel>

@@ -40,7 +40,7 @@ function NavBar() {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="https://www.linkedin.com/in/oguzkaanyildiz/" target="_blank"><img src={linkedin} alt="" /></a>
+                            <a href="https://www.linkedin.com/in/oguzkaanyildiz/" target="_blank" rel="noreferrer"><img src={linkedin} alt="" /></a>
                             <a href="#footer"><img src={email} alt="" /></a>
                         </div>
                     </span>
