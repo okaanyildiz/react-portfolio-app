@@ -19,8 +19,8 @@ function Banner() {
                                 {({ isVisible }) =>
                                     <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                                         <span className="tagline">Welcome!</span>
-                                        {/* <h1>I'm Oguz</h1> */}
-                                        <h2>Software Developer</h2>
+                                        <h1>I'm Oguz</h1>
+                                        {/* <h2>Software Developer</h2> */}
                                         <p>With years of experience, passionate about developing and collaborating. Always eager to learn new technologies.</p>
                                         <HashLink to='#footer'>
                                             <button onClick={() => console.log('connect')}>Let’s Connect</button>
