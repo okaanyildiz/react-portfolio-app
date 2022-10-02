@@ -37,12 +37,12 @@ function NavBar() {
                         <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
                         <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
                         <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
-                        <div className="social-icon">
-                            <a href="https://www.linkedin.com/in/oguzkaanyildiz/" target="_blank" rel="noreferrer"><img src={linkedin} alt="" /></a>
-                            <a href="#footer"><img src={email} alt="" /></a>
-                        </div>
                     </Nav>
                 </Navbar.Collapse>
+                <Nav className="social-icon">
+                    <Nav.Link href="https://www.linkedin.com/in/oguzkaanyildiz/" target="_blank" rel="noreferrer"><img src={linkedin} alt="" /></Nav.Link>
+                    <Nav.Link href="#footer"><img src={email} alt="" /></Nav.Link>
+                </Nav>
             </Container>
         </Navbar>
     )
