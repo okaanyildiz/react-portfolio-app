@@ -38,11 +38,11 @@ function NavBar() {
                         <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
                         <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
                     </Nav>
+                    <Nav className="social-icon">
+                        <Nav.Link href="https://www.linkedin.com/in/oguzkaanyildiz/" target="_blank" rel="noreferrer"><img src={linkedin} alt="" /></Nav.Link>
+                        <Nav.Link href="#footer"><img src={email} alt="" /></Nav.Link>
+                    </Nav>
                 </Navbar.Collapse>
-                <Nav className="social-icon">
-                    <Nav.Link href="https://www.linkedin.com/in/oguzkaanyildiz/" target="_blank" rel="noreferrer"><img src={linkedin} alt="" /></Nav.Link>
-                    <Nav.Link href="#footer"><img src={email} alt="" /></Nav.Link>
-                </Nav>
             </Container>
         </Navbar>
     )

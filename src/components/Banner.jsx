@@ -1,39 +1,29 @@
-import profilImg from "../assets/img/profil-img.jpg";
-import { HashLink } from 'react-router-hash-link';
-import {
-    BrowserRouter as Router
-} from "react-router-dom";
+import profilImg2 from "../assets/img/profil-img2.jpg";
 
 function Banner() {
 
     return (
-        <Router>
-            <section className="banner" id="home">
-                <div className="banner-container">
-                    <div className="banner-left-column">
-                        <div>
-                            <span className="tagline">Welcome!</span>
-                        </div>
-                        <div>
-                            <h1>I'm Oguz</h1>
-                            <h2>Software Developer</h2>
-                            <p>With years of experience, passionate about developing and collaborating. Always eager to learn new technologies.</p>
-                            <div classname="banner-btn-container">
-                                <HashLink to='#skills'>
-                                    <button>Discover my skills</button>
-                                </HashLink>
-                                <HashLink to='#footer'>
-                                    <button className="banner-connect-btn">Let's Connect</button>
-                                </HashLink>
-                            </div>
-                        </div>
+        <section className="banner" id="home">
+            <div className="banner-left-column">
+                <div className="tagline-box">
+                    <span className="tagline">Welcome!</span>
+                </div>
+                <div>
+                    <h1>I'm Oguz</h1>
+                    <h2>Software Developer</h2>
+                    <p>With years of experience, passionate about developing and collaborating. Always eager to learn new technologies.</p>
+                    <div className="banner-discover-btn">
+                        <a className="button" href="#skills">Discover My Skills</a>
                     </div>
-                    <div className="banner-right-column">
-                        <img src={profilImg} alt="oguz yildiz" />
+                    <div className="banner-connect-btn">
+                        <a className="button" href="#footer">Let's Connect</a>
                     </div>
                 </div>
-            </section>
-        </Router>
+            </div>
+            <div className="banner-right-column">
+                <img src={profilImg2} alt="oguz yildiz" />
+            </div>
+        </section>
     )
 }
 
