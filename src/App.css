@@ -426,7 +426,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     background-image: url('./assets/img/banner2.webp');
     border-radius: 64px;
     text-align: center;
-    padding: 160px 50px;
+    padding: 40px 50px;
     margin-top: 40px;
 }
 
@@ -440,6 +440,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 100%;
     margin: 0 auto;
     position: relative;
+}
+
+.lang-slider {
+    margin-top: 4rem;
+
 }
 
 .skill-slider .item img {
