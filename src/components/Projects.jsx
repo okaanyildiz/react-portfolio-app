@@ -19,14 +19,14 @@ function Projects() {
             imgUrl: project2,
         },
         {
-            title: "Real Estate App",
-            description: "With Django, Bootstrap, PostgreSQL",
-            imgUrl: project1
-        },
-        {
             title: "Social Media App",
             description: "With ASP.NET Core, React, Semantic UI",
             imgUrl: project3,
+        },
+        {
+            title: "Real Estate App",
+            description: "With Django, Bootstrap, PostgreSQL",
+            imgUrl: project1
         }
     ];
 
@@ -66,66 +66,64 @@ function Projects() {
             <Container>
                 <Row>
                     <Col size={12}>
-                        <div className="animate__animated animate__fadeIn">
-                            <h2>Projects</h2>
-                            <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                                <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                                    <Nav.Item>
-                                        <Nav.Link eventKey="first">1</Nav.Link>
-                                    </Nav.Item>
-                                    <Nav.Item>
-                                        <Nav.Link eventKey="second">2</Nav.Link>
-                                    </Nav.Item>
-                                    <Nav.Item>
-                                        <Nav.Link eventKey="third">3</Nav.Link>
-                                    </Nav.Item>
-                                </Nav>
-                                <Tab.Content id="slideInUp" className="animate__animated animate__slideInUp">
-                                    <Tab.Pane eventKey="first">
-                                        <Row>
-                                            {
-                                                projects1.map((project, index) => {
-                                                    return (
-                                                        <ProjectCard
-                                                            key={index}
-                                                            {...project}
-                                                        />
-                                                    )
-                                                })
-                                            }
-                                        </Row>
-                                    </Tab.Pane>
-                                    <Tab.Pane eventKey="second">
-                                        <Row>
-                                            {
-                                                projects2.map((project, index) => {
-                                                    return (
-                                                        <ProjectCard
-                                                            key={index}
-                                                            {...project}
-                                                        />
-                                                    )
-                                                })
-                                            }
-                                        </Row>
-                                    </Tab.Pane>
-                                    <Tab.Pane eventKey="third">
-                                        <Row>
-                                            {
-                                                projects3.map((project, index) => {
-                                                    return (
-                                                        <ProjectCard
-                                                            key={index}
-                                                            {...project}
-                                                        />
-                                                    )
-                                                })
-                                            }
-                                        </Row>
-                                    </Tab.Pane>
-                                </Tab.Content>
-                            </Tab.Container>
-                        </div>
+                        <h2>Projects</h2>
+                        <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                            <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                                <Nav.Item>
+                                    <Nav.Link eventKey="first">1</Nav.Link>
+                                </Nav.Item>
+                                <Nav.Item>
+                                    <Nav.Link eventKey="second">2</Nav.Link>
+                                </Nav.Item>
+                                <Nav.Item>
+                                    <Nav.Link eventKey="third">3</Nav.Link>
+                                </Nav.Item>
+                            </Nav>
+                            <Tab.Content id="slideInUp" className="animate__animated animate__slideInUp">
+                                <Tab.Pane eventKey="first">
+                                    <Row>
+                                        {
+                                            projects1.map((project, index) => {
+                                                return (
+                                                    <ProjectCard
+                                                        key={index}
+                                                        {...project}
+                                                    />
+                                                )
+                                            })
+                                        }
+                                    </Row>
+                                </Tab.Pane>
+                                <Tab.Pane eventKey="second">
+                                    <Row>
+                                        {
+                                            projects2.map((project, index) => {
+                                                return (
+                                                    <ProjectCard
+                                                        key={index}
+                                                        {...project}
+                                                    />
+                                                )
+                                            })
+                                        }
+                                    </Row>
+                                </Tab.Pane>
+                                <Tab.Pane eventKey="third">
+                                    <Row>
+                                        {
+                                            projects3.map((project, index) => {
+                                                return (
+                                                    <ProjectCard
+                                                        key={index}
+                                                        {...project}
+                                                    />
+                                                )
+                                            })
+                                        }
+                                    </Row>
+                                </Tab.Pane>
+                            </Tab.Content>
+                        </Tab.Container>
                     </Col>
                 </Row>
             </Container>
