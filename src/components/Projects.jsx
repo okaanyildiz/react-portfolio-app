@@ -56,7 +56,7 @@ function Projects() {
         },
         {
             title: "Admin Dashboard",
-            description: "React, Syncfusion",
+            description: "React",
             imgUrl: project8,
         },
     ];
